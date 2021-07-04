@@ -38,6 +38,7 @@ section .link-button{
     text-decoration: none;
     color: white;
     padding: 10px 25px;
+    border: 1px solid transparent;
 }
 
 /* -----Dream section----- */
