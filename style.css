@@ -3,8 +3,14 @@ body{
     margin: 0;
 
 }
-section.top-banner{
+p{
+    color: dimgray;
+    padding-bottom: 25px;
+}
+.flex{
     display: flex;
+}
+section.top-banner{
     width: 100%;
     margin: auto;
     background-image: url(/images/top-banner.png);
@@ -32,4 +38,15 @@ section .link-button{
     text-decoration: none;
     color: white;
     padding: 10px 25px;
+}
+
+/* -----Dream section----- */
+.dream img{
+    width: 450px;
+}
+.dream .dream-content{
+    padding-right: 7%;
+}
+.dream .dream-content h1{
+    font-size: 40px;
 }
